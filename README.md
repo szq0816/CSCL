@@ -27,6 +27,14 @@ All datasets are stored in the data directory. Before running the code, please m
 
 To run the model on a specific dataset, select the corresponding dataset flag in `train.py` and execute the training script.
 
+Datasets Download
+
+Download Link: https://pan.quark.cn/s/bf1092360ce9
+
+Extraction Code: 2yfm
+
+After downloading, please extract the datasets into the data directory before running the code.
+
 
 
 ## Ablation Study
