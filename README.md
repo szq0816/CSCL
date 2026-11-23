@@ -1,5 +1,5 @@
 # CSCL
-PyTorch implementation for[ Incomplete Contrastive Multi-View Clustering with High-Confidence GuidingCross-Level Semantic Coherence Learning for IncompleteMulti-View Clustering]
+PyTorch implementation for[Cross-Level Semantic Coherence Learning for IncompleteMulti-View Clustering]
 
 ## Environment
 
