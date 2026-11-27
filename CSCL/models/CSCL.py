@@ -106,8 +106,8 @@ class CSCL(nn.Module):
             y_max = torch.maximum(y_max, y)
             y_max = target_l2(y_max)
             y = torch.where(y < EPS, torch.tensor([EPS], device=y.device), y)
-            hc_loss = F.kl_div(y.log(), y_max.detach(), reduction='batchmean')
-            loss += lamb3 * hc_loss
+            kl_loss = F.kl_div(y.log(), y_max.detach(), reduction='batchmean')
+            loss += lamb3 * kl_loss
 
 
             optimizer.zero_grad()
